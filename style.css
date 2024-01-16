@@ -1,0 +1,59 @@
+#hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6ECA9;
+    color: #596FB7;
+}
+
+img {
+    height: 400px;
+    width: 275px;
+    border: 5px solid #596FB7;
+}
+
+#resume > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #C6CF9B;
+    color: #596FB7;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #C6CF9B;
+    color: #596FB7;
+}
+
+#bio {
+    background-color: #11235A;
+    color: #596FB7;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #596FB7;
+    background-color: #11235A;
+}
+
+footer {
+    background-color: #596FB7;
+    color: #11235A;
+}
+
+.touchUp {
+    background-color: #11235A;
+}
+
+p {
+    color: #596FB7;
+}
+
+.carousel-caption {
+    background-color: #11235A;
+    opacity: 90%;
+}
